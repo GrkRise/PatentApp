@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">patentapp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name">FindPatent</string>
+    <string name="group_a">Удовлетворение жизненных потребностей человека</string>
+    <string name="group_b">Различные технологические процессы; транспортирование</string>
+    <string name="group_c">Химия; металлургия</string>
+    <string name="group_d">Текстиль; бумага</string>
+    <string name="group_e">Строительство; горное дело</string>
+    <string name="group_f">Механика; освещение; отопление; двигатели</string>
+    <string name="group_g">Физика</string>
+    <string name="group_h">Электричество</string>
+    <string name="hello_world">Hello World!Hello World! Hello World!Hello World! Hello World!Hello World! Hello World!Hello World!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="text_Size">
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+    </string-array>
+</resources>

@@ -1,0 +1,177 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.rise.grk.patentapp.Fragments.SettingsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="70dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_settings"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Text Settings"/>
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:columnCount="2"
+                        android:paddingTop="12dp"
+                        android:layout_gravity="fill">
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/text_settings_1"/>
+                        <Spinner
+                            android:layout_gravity="right"
+                            android:entries="@array/text_Size"
+                            android:spinnerMode="dialog"
+                            android:id="@+id/text_choice_1"
+                            />
+                    </GridLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/app_settings"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Application Settings"/>
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:columnCount="2"
+                        android:paddingTop="12dp"
+                        android:layout_gravity="fill">
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/app_settings_1"/>
+                        <CheckBox android:id="@+id/app_checkbox_1"
+                            android:checked="true"
+                            android:buttonTint="@color/colorPrimary"
+                            />
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/app_settings_2"/>
+                        <CheckBox android:id="@+id/app_checkbox_2"
+                            android:checked="true"
+                            android:buttonTint="@color/colorPrimary"
+                            />
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/app_settings_3"/>
+                        <CheckBox android:id="@+id/app_checkbox_3"
+                            android:checked="true"
+                            android:buttonTint="@color/colorPrimary"
+                            />
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/app_settings_4"/>
+                        <CheckBox android:id="@+id/app_checkbox_4"
+                            android:checked="true"
+                            android:buttonTint="@color/colorPrimary"
+                            />
+                        <TextView
+                        android:text="Text size"
+                        android:layout_gravity="left"
+                        android:id="@+id/app_settings_5"/>
+                        <CheckBox android:id="@+id/app_checkbox_5"
+                            android:checked="true"
+                            android:buttonTint="@color/colorPrimary"
+                            />
+
+                    </GridLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/net_settings"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Network Settings"/>
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:columnCount="2"
+                        android:paddingTop="12dp"
+                        android:layout_gravity="fill">
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/net_settings_1"/>
+                        <Switch android:id="@+id/net_checkbox_1"
+                            android:thumbTint="@color/colorPrimary"
+                            android:checked="true"/>
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/net_settings_2"/>
+                        <Switch android:id="@+id/net_checkbox_2"
+                            android:thumbTint="@color/colorPrimary"
+                            android:checked="true"/>
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/net_settings_3"/>
+                        <Switch android:id="@+id/net_checkbox_3"
+                            android:thumbTint="@color/colorPrimary"/>
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/net_settings_4"/>
+                        <Switch android:id="@+id/net_checkbox_4"
+                            android:thumbTint="@color/colorPrimary"
+                            />
+                        <TextView
+                            android:text="Text size"
+                            android:layout_gravity="left"
+                            android:id="@+id/net_settings_5"/>
+                        <Switch android:id="@+id/net_checkbox_5"
+                            android:thumbTint="@color/colorPrimary" />
+
+                    </GridLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

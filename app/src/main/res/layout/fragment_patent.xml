@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.PatentFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="70dp"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/patent_title"
+            android:layout_margin="8dp"
+            android:textSize="@dimen/title"
+            android:text="hello_world"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/patent_title"
+            android:id="@+id/patent_img"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/authors"
+            android:textSize="@dimen/textsize"
+            android:lineSpacingExtra="2dp"
+            android:text="Authors: Smith Sam(US), Mac Donald(US)"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/patent_title"
+            android:layout_toEndOf="@+id/patent_img" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/authors"
+            android:layout_toRightOf="@id/patent_img"
+            android:id="@+id/owner"
+            android:textSize="@dimen/textsize"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="2dp"
+            android:text="Owner: Company Inc(US)"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:id="@+id/scroll"
+            android:layout_below="@id/owner"
+            android:scrollbars="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/patent_text"
+                android:text="@string/hello_world"
+                android:scrollbars="vertical"
+                android:textSize="@dimen/textsize"/>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Категории">
+        <menu>
+        <group android:checkableBehavior="single" android:orderInCategory="3">
+            <item
+                android:id="@+id/group_a"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/group_a"/>
+
+            <item
+                android:id="@+id/group_b"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/group_b" />
+            <item
+                android:id="@+id/group_c"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/group_c" />
+            <item
+                android:id="@+id/group_d"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/group_d" />
+            <item
+                android:id="@+id/group_e"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/group_e" />
+            <item
+                android:id="@+id/group_f"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/group_f" />
+            <item
+                android:id="@+id/group_g"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/group_g" />
+            <item
+                android:id="@+id/group_h"
+                android:icon="@mipmap/ic_launcher"
+                android:title="@string/group_h" />
+        </group>
+        </menu>
+    </item>
+
+      <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Personal Information" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+</menu>
